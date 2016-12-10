@@ -26,18 +26,55 @@
   <a href="experiencia.html"> Experiencia</a>
   <br>
   <a>_____________________________________________________________________________________________________________________________________</a>
-  <h2> Informaci&oacute;n personal </h2>
-  <img src="imagenes/fotoerick.jpg" alt="Foto Erick" title="Erick Uluac Mijangos" width="200px"/>
-  <p>
-    Mas de 20 años de experiencia programando, autodidacta y siempre
-    dispuesto a aprender. trabajo en equipo y manejo de personal.
-
-    acostumbrado a trabajar por objetivos y bajo presion
-  </p>
-  <ul>
-    <li> Idioma Ingl&eacute;s intermedio </li>
-    <li> Idioma Español experto </li>
-  </ul>
+  <h2> Educaci&oacute;n </h2>
+  <table border="1">
+    <tr>
+      <td>Año</td>
+      <td>Instituci&oacute;n</td>
+      <td>Lugar</td>
+      <td>¿Culmin&oacute;?</td>
+    </tr>
+    <tr>
+      <td>1993</td>
+      <td>Instituto Tecnológico de Mérida</td>
+      <td>Mérida Yucatán</td>
+      <td>Sí</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Next university</td>
+      <td>Online</td>
+      <td>En Curso</td>
+    </tr>
+  </table>
+  <br>
+  <form autocomplete="on">
+      <legend> Agregar estudios </legend>
+      <label for="anio"> Año: </label>
+      <select>
+        <option>1990</option> <option>1991</option> <option>1992</option>
+        <option>1993</option> <option>1994</option> <option>1995</option>
+        <option>1996</option> <option>1997</option> <option>1998</option>
+        <option>1999</option> <option>2000</option> <option>2001</option>
+        <option>2002</option> <option>2003</option> <option>2004</option>
+        <option>2005</option> <option>2006</option> <option>2007</option>
+        <option>2008</option> <option>2009</option> <option>2010</option>
+        <option>2011</option> <option>2012</option> <option>2013</option>
+        <option>2014</option> <option>2015</option> <option>2016</option>
+      </select>
+      <br>
+      <label for="insti"> Institución: </label>
+      <input type="text" maxlength="70" required="si" value="Escuela">
+      <br>
+      <label> Lugar: </label>
+      <textarea rows="3" cols="50"></textarea>
+      <br>
+      <label> Culminó </label>
+      <input type="radio" name="respuesta">SI
+      <input type="radio" name="respuesta">NO
+      <br>
+      <input type="submit">
+  </form>
 </body>
 <footer>
   <a>_____________________________________________________________________________________________________________________________________</a>
